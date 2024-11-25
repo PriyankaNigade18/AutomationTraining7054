@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-25T22:18:47 IST" name="Default suite" finished-at="2024-11-25T22:18:52 IST" duration-ms="5149">
+    <groups>
+    </groups>
+    <test started-at="2024-11-25T22:18:47 IST" name="Default test" finished-at="2024-11-25T22:18:52 IST" duration-ms="5149">
+      <class name="com.ReastAPITest.WaysTORequestPayload">
+        <test-method signature="createTokenUsingPOJO()[pri:0, instance:com.ReastAPITest.WaysTORequestPayload@48f278eb]" started-at="2024-11-25T22:18:47 IST" name="createTokenUsingPOJO" finished-at="2024-11-25T22:18:52 IST" duration-ms="5089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenUsingPOJO -->
+      </class> <!-- com.ReastAPITest.WaysTORequestPayload -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
