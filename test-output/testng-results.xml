@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-02T22:18:54 IST" name="Default suite" finished-at="2024-12-02T22:19:05 IST" duration-ms="11605">
+    <groups>
+    </groups>
+    <test started-at="2024-12-02T22:18:54 IST" name="Default test" finished-at="2024-12-02T22:19:05 IST" duration-ms="11605">
+      <class name="com.DriverSession.DriverSessionWithAppPackageActivity">
+        <test-method signature="testDriverSession()[pri:0, instance:com.DriverSession.DriverSessionWithAppPackageActivity@771a660]" started-at="2024-12-02T22:18:54 IST" name="testDriverSession" finished-at="2024-12-02T22:19:05 IST" duration-ms="11536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDriverSession -->
+      </class> <!-- com.DriverSession.DriverSessionWithAppPackageActivity -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
