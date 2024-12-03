@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestMobileFeature.TestMobileLocators">
+      <class name="com.TestMobileFeature.AlertHandling">
         <methods>
-          <include name="testLocators"/>
+          <include name="testAlertHandling"/>
         </methods>
-      </class> <!-- com.TestMobileFeature.TestMobileLocators -->
+      </class> <!-- com.TestMobileFeature.AlertHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
