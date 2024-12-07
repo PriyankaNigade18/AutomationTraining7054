@@ -18,16 +18,21 @@ public class SwipeGesture {
 	  //create a driver session
 	  AppiumDriver driver=DriverUtil.initDriverSession();
 	  
+	  Utility.getScreenshot(driver,"MobileSession");
+	  
 	  //views
 	  driver.findElement(AppiumBy.accessibilityId("Views")).click();
+	  Utility.getScreenshot(driver,"ViewPage");
 	  
 	  //gallery
 	  driver.findElement(AppiumBy.accessibilityId("Gallery")).click();
 	  
+	  Utility.getScreenshot(driver,"GalleryPage");
 	  //photos
 	  
 	  driver.findElement(AppiumBy.accessibilityId("1. Photos")).click();
 	  
+	  Utility.getScreenshot(driver,"photos");
 	  //swipe ele/area
 	  WebElement area=driver.findElement(AppiumBy.id("io.appium.android.apis:id/gallery"));
 	  
@@ -44,9 +49,10 @@ public class SwipeGesture {
 	  Utility.swipeLeft(driver,area);
 	  
 	  Thread.sleep(1500);
+	  Utility.getScreenshot(driver,"SwipeLeft");
 	  
 	  Utility.swipeRight(driver,area);
-	  
+	  Utility.getScreenshot(driver,"rightLeft");
 	  
 	  
 	  

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestMobileFeature.AlertHandling">
+      <class name="com.TestMobileScenarios.TestPerformanaceParameters">
         <methods>
-          <include name="testAlertHandling"/>
+          <include name="testPerformanceParam"/>
         </methods>
-      </class> <!-- com.TestMobileFeature.AlertHandling -->
+      </class> <!-- com.TestMobileScenarios.TestPerformanaceParameters -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
