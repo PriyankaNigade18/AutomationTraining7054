@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.APIScenarios.Headers_CookiesValidation">
+      <class name="com.TelecomProject.TelecomAPI">
         <methods>
-          <include name="testHeaders"/>
+          <include name="loginUser"/>
         </methods>
-      </class> <!-- com.APIScenarios.Headers_CookiesValidation -->
+      </class> <!-- com.TelecomProject.TelecomAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
